@@ -18,5 +18,5 @@ The dataset features a meticulously curated collection of variables critical for
 
 The dataset encompasses weekly data spanning from February 5, 2010, to October 26, 2012
 
-### Our objective is to thoroughly explore the dataset and employ machine learning models to analyze various variables. This approach will enable us to identify key insights and patterns that influence outcomes, supporting informed decision-making.
+##### Our objective is to thoroughly explore the dataset and employ machine learning models to analyze various variables. This approach will enable us to identify key insights and patterns that influence outcomes, supporting informed decision-making.
 
