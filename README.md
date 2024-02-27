@@ -41,6 +41,23 @@ Linear regression model without considering the catogorical variables
 
 #### MODEL 2
 
-Comprehensive Linear Regression Analysis Incorporating All Independent Variables"
+Linear Regression Analysis Incorporating All Independent Variables
 
+- Target Variable : Weekly_Sales
+- Drop Variable   : Date
+- Encode Catogorical Varaible : Store, Holiday_Flag
+- Min MAx Normalisation for Features Other than Store Variable and Holiday_Flag
+
+
+ R² = 0.9208878082543459
+
+This high R² value suggests that the model effectively captures the relationship between the independent variables and the target variable.
+
+##### Actual vs. Predicted Values 
+
+![download](https://github.com/sidiquegithub/Walmark-Sales-Analysis/assets/110783832/9df04398-b881-4e44-899b-a4e007a5b3d9) 
+
+##### Residuals vs. Predicted Values
+
+![image](https://github.com/sidiquegithub/Walmark-Sales-Analysis/assets/110783832/a545f43d-9d10-448c-ba34-7bfe4fd78cd0)
 
