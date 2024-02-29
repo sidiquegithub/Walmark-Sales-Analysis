@@ -87,3 +87,7 @@ Normalised RMSE = RMSE /(Range)
 ## MOEDEL 3 
 
 ARIMA Model Analysis on Aggregate Weekly Sales Across All Stores
+
+![download](https://github.com/sidiquegithub/Walmark-Sales-Analysis/assets/110783832/eafcf82b-90b9-415f-8a75-62d804bbd54a)
+
+Dickey-Fuller Test
