@@ -107,22 +107,32 @@ Best model:  ARIMA(2,0,0)(0,0,0)[0] intercept
 - The Akaike Information Criterion(AIC): 4829.418.
 - The Bayesian Information Criterion(BIC) : 4841.270.  
 - The Hannan-Quinn Information Criterion(HQIC): 4834.234.
-const: The constant term is estimated to be 4.711e+07, with a very small p-value, indicating it is significantly different from zero.
-ar.L1: The coefficient for the first lag in the autoregressive model is 0.2953, significant at the 0.000 level, suggesting a substantial impact of the previous time step on the current value.
-ar.L2: The coefficient for the second lag is 0.1195, but with a p-value of 0.119, indicating it might not be statistically significant.
+- The constant term is estimated to be 4.711e+07, with a very small p-value, indicating it is significantly different from zero.
+- ar.L1: The coefficient for the first lag in the autoregressive model is 0.2953, significant at the 0.000 level, suggesting a substantial impact of the previous time step on the current value.
+- ar.L2: The coefficient for the second lag is 0.1195, but with a p-value of 0.119, indicating it might not be statistically significant.
+
 Diagnostics
-sigma2: The variance of the model's errors is 2.601e+13, indicating the scale of the residuals.
-Ljung-Box (Q): The p-value 0.94 suggests that there is little evidence to reject the null hypothesis of no autocorrelation in residuals, meaning the model residuals do not show significant autocorrelation patterns.
-Jarque-Bera (JB): With a p-value of 0.00, this test rejects the null hypothesis of normal distribution of residuals, indicating potential issues with the model's assumptions.
-Heteroskedasticity (H): The p-value 0.11 suggests that there is no strong evidence of heteroskedasticity, meaning the variance of the residuals is fairly constant.
-Skew: 2.57 indicates a significant right skew in the distribution of residuals.
-Kurtosis: 16.04 suggests a heavy-tailed or leptokurtic distribution of residuals compared to a normal distribution.
+- sigma2: The variance of the model's errors is 2.601e+13, indicating the scale of the residuals.
+- Ljung-Box (Q): The p-value 0.94 suggests that there is little evidence to reject the null hypothesis of no autocorrelation in residuals, meaning the model residuals do not show significant autocorrelation patterns.
+- Jarque-Bera (JB): With a p-value of 0.00, this test rejects the null hypothesis of normal distribution of residuals, indicating potential issues with the model's assumptions.
+- Heteroskedasticity (H): The p-value 0.11 suggests that there is no strong evidence of heteroskedasticity, meaning the variance of the residuals is fairly constant.
+- Skew: 2.57 indicates a significant right skew in the distribution of residuals.
+- Kurtosis: 16.04 suggests a heavy-tailed or leptokurtic distribution of residuals compared to a normal distribution.
+
 Warnings
-Covariance matrix warnings suggest potential instability in the standard errors of the coefficients, likely due to the singularity or near-singularity of the covariance matrix. This could be a sign that the model is overparameterized or that multicollinearity among predictors is present.
+- Covariance matrix warnings suggest potential instability in the standard errors of the coefficients, likely due to the singularity or near-singularity of the covariance matrix. This could be a sign that the model is overparameterized or that multicollinearity among predictors is present.
+
 Analysis
 While the model seems to fit the data to some extent (as indicated by the significance of the constant and the first lag), several issues are noteworthy:
 
-The non-significance of the second autoregressive term suggests it may not be necessary.
-The diagnostics indicate potential problems with the normality and distribution of residuals, which could affect the reliability of hypothesis tests based on the model.
-The warning about the covariance matrix suggests reviewing the model specification or data for issues that might be causing instability in the estimates.
-In conclusion, while the model captures some of the structure in the data, there may be room for improvement. Considerations could include checking for seasonality, exploring transformations of the data to address skew and kurtosis in residuals, or revisiting the model specification to ensure it appropriately captures the underlying processes.
+- The non-significance of the second autoregressive term suggests it may not be necessary.
+- The diagnostics indicate potential problems with the normality and distribution of residuals, which could affect the reliability of hypothesis tests based on the model.
+- The warning about the covariance matrix suggests reviewing the model specification or data for issues that might be causing instability in the estimates.
+- In conclusion, while the model captures some of the structure in the data, there may be room for improvement. Considerations could include checking for seasonality, exploring transformations of the data to address skew and kurtosis in residuals, or revisiting the model specification to ensure it appropriately captures the underlying processes.
+
+----------------------------------
+## MOEDEL 4
+
+Decision Tree Analysis Focused on the Store Variable
+
+
