@@ -90,4 +90,13 @@ ARIMA Model Analysis on Aggregate Weekly Sales Across All Stores
 
 ![download](https://github.com/sidiquegithub/Walmark-Sales-Analysis/assets/110783832/eafcf82b-90b9-415f-8a75-62d804bbd54a)
 
-Dickey-Fuller Test
+### Dickey-Fuller Test
+<br> p-value = 0.000000268.
+This shows the series is stationary.
+
+### PMDARIMA
+Best model:  ARIMA(2,0,0)(0,0,0)[0] intercept
+
+### Model Valuation
+- The model, being of order 2, predicts the current value of the series using the two immediate past values.
+- 
