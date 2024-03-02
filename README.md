@@ -135,4 +135,7 @@ While the model seems to fit the data to some extent (as indicated by the signif
 
 Decision Tree Analysis Focused on the Store Variable
 
+Accuracy of the decision tree classifier: 0.93
+
+
 
